@@ -51,17 +51,18 @@ h_1 & 2(h_1 + h_2) & h_2 & 0 & \cdots \\
 0 & h_2 & 2(h_2 + h_3) & h_3 & \cdots \\
 \vdots & \vdots & \vdots & \vdots & \ddots
 \end{bmatrix}
+\cdot
 \begin{bmatrix}
 c_1 \\
 c_2 \\
 \vdots
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 \text{RHS}_1 \\
 \text{RHS}_2 \\
 \vdots
 \end{bmatrix}
 $$
+
 
 
