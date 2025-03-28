@@ -29,3 +29,8 @@ $$h_i = x_{i+1}-x_i$$
 * $$f_{i}^{''}(x_{i+1}) = c_i+6d_ih_i$$
 * Sehingga, **$c_{i+1}=c_i+3d_ih_i$**.
 * Sehingga, **$d_{i+1}=\frac{c_{i+1}-c_i}{3h_i}$**.
+### Step 8: Subtitusi $b_i$, $c_i$, dan $d_i$ ke Persamaan $y_{i+1} = y_i+b_i(x_{i+1}-x_i)+c_i(x_{i+1}-x_i)^2+d_i(x_{i+1}-x_i)^3$
+$$y_{i+1} = y_i+b_ih_i+\frac{(2c_i+c_{i+1})h_i^2}{3}$$
+### Step 9: Hitung nilai $b_i$ dari Step 8 
+* $$b_i = \frac{y_{i+1}-y_i}{h_i}-\frac{(2c_i+c_{i+1})h_i^2}{3}$$
+* Untuk bagian indeks sebelumnya menjadi $$b_{i-1} = \frac{y_{i}-y_{i-1}}{h_{i-1}}-\frac{(2c_{i-1}+c_{i})h_{i-1}^2}{3}$$
