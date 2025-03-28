@@ -39,3 +39,8 @@ $$y_{i+1} = y_i+b_ih_i+\frac{(2c_i+c_{i+1})h_i^2}{3}$$
 * Untuk bagian indeks sebelumnya menjadi $$b_{i}=b_{i-1}+2c_{i-1}h_{i-1}+(c_{i}-c_{i-1})h_{i-1}$$
 ### Step 11: Substitusi nilai $b_i$ dan $b_{i-1}$ yang diperoleh dari Step 9 ke Persamaan $b_{i}=b_{i-1}+2c_{i-1}h_{i-1}+(c_{i}-c_{i-1})h_{i-1}$
 $$\frac{y_{i+1}-y_i}{h_i}-\frac{(2c_i+c_{i+1})h_i}{3}=\frac{y_i-y_{i-1}}{h_{i-1}}-\frac{(2c_{i-1}+c_i)h_{i-1}}{3}+(c_{i-1}+c_i)h_{i-1}$$
+### Step 12: Kelompokkan bagian y dan c
+$$\frac{y_{i+1}-y_i}{h_i}-\frac{y_i-y_{i-1}}{h_{i-1}}= \frac{(2c_i+c_{i+1})h_i}{3}-\frac{(2c_{i-1}+c_i)h_{i-1}}{3}+(c_{i-1}+c_i)h_{i-1}$$
+### Step 13: Sederhanakan Persamaan yang diperoleh pada Step 12 dengan mengkalikannya dengan 3
+* $$\frac{3(y_{i+1}-y_i)}{h_i}-\frac{3(y_i-y_{i-1})}{h_{i-1}}= (2c_i+c_{i+1})h_i-(2c_{i-1}+c_i)h_{i-1}+3(c_{i-1}+c_i)h_{i-1}$$
+* $$h_{i-1}c_{i-1}+2(h_i-h_{i-1})c_i+h_ic_{i+1}=\frac{3(y_{i+1}-y_i)}{h_i}-\frac{3(y_i-y_{i-1})}{h_{i-1}}$$
