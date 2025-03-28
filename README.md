@@ -48,4 +48,4 @@ $$\frac{y_{i+1}-y_i}{h_i}-\frac{y_i-y_{i-1}}{h_{i-1}}= \frac{(2c_i+c_{i+1})h_i}{
 $$\begin{bmatrix}h_1&2(h_1+h_2)&h2&0&\dots\\
 0&h_2&2(h_2+h_3)&h_3&\dots\\
 \vdots&\vdots&\vdots&\vdots&\vdots\end{bmatrix}$$
-$$\begin{bmatrix}c_1\\c_2\\\vdots\end{bmatrix}$$
+$\begin{bmatrix}c_1\\c_2\\\vdots\end{bmatrix}$
