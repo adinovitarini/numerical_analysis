@@ -34,3 +34,6 @@ $$y_{i+1} = y_i+b_ih_i+\frac{(2c_i+c_{i+1})h_i^2}{3}$$
 ### Step 9: Hitung nilai $b_i$ dari Step 8 
 * $$b_i = \frac{y_{i+1}-y_i}{h_i}-\frac{(2c_i+c_{i+1})h_i^2}{3}$$
 * Untuk bagian indeks sebelumnya menjadi $$b_{i-1} = \frac{y_{i}-y_{i-1}}{h_{i-1}}-\frac{(2c_{i-1}+c_{i})h_{i-1}^2}{3}$$
+### Step 10: Substitusi nilai $d_i$ yang diperoleh dari Step 7 ke Persamaan **$b_{i+1}=b_i+2c_ih_i+3d_ih_i^2$** di Step 5
+* $$b_{i+1}=b_i+2c_ih_i+(c_{i+1}-c_i)h_i$$
+* Untuk bagian indeks sebelumnya menjadi $$b_{i}=b_{i-1}+2c_{i-1}h_{i-1}+(c_{i}-c_{i-1})h_{i-1}$$
