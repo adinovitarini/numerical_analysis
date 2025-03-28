@@ -8,6 +8,6 @@ $$a_i = y_i$$
 ### Step 2: Hitung jarak antar titik interpolasi 
 $$h_i = x_{i+1}-x_i$$
 ### Step 3: Definisikan kondisi kontinuiti antar spline 
-*Untuk Left Handes Splines (LHS) $f_{i+1}(x_{i+1})$
-*$f_{i+1}(x_{i+1})$
-*$f_{i+1}(x_{i+1})$
+* Untuk Left Handes Splines (LHS) $f_{i+1}(x_{i+1})$
+* $f_{i+1}(x_{i+1})$
+* $f_{i+1}(x_{i+1})$
