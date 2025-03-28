@@ -11,3 +11,12 @@ $$h_i = x_{i+1}-x_i$$
 * Untuk Left Handed Splines (LHS): $f_{i+1}(x_{i+1}) = y_{i+1}$
 * Untuk Right Handed Splines (RHS): $f_{i}(x_{i+1})=a_i+b_i(x_{i+1}-x_i)+c_i(x_{i+1}-x_i)^2+d_i(x_{i+1}-x_i)^3$
 * Substitusi LHS dan RHS ke $f_{i+1}(x_{i+1}) = f_i(x_{i+1})$ sedemikian hingga menjadi $y_{i+1} = y_i+b_i(x_{i+1}-x_i)+c_i(x_{i+1}-x_i)^2+d_i(x_{i+1}-x_i)^3$
+* Sederhanakan persamaan di atas sehingga menjadi $y_{i+1} = y_i+b_ih_i+c_ih_i^2+d_ih_i^3$
+### Step 4: Turunan pertama dari Persamaan $f_i(x)=a_i+b_i(x-x_i)+c_i(x-x_i)^2+d_i(x-x_i)^3$
+$$f_{i+1}^'(x_{i+1}) = b_{i+1}$$
+$$f_{i}^'(x_{i+1}) = b_i+2c_i(x_{i+1}-xi)+3d_i(x_{i+1}-x_i)^2$$
+$$f_{i}^'(x_{i+1}) = b_i+2c_ih_i+3d_ih_i^2$$
+### Step 4: Turunan kedua dari Persamaan $f_i(x)=a_i+b_i(x-x_i)+c_i(x-x_i)^2+d_i(x-x_i)^3$
+$$f_{i+1}^{''}(x_{i+1}) = 2c_{i}$$
+$$f_{i}^{''}(x_{i+1}) = b_i+2c_i(x_{i+1}-xi)+3d_i(x_{i+1}-x_i)^2$$
+$$f_{i}^{''}(x_{i+1}) = b_i+2c_ih_i+3d_ih_i^2$$
