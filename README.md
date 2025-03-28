@@ -19,11 +19,13 @@ $$h_i = x_{i+1}-x_i$$
 * $$f_{i+1}^{'}(x_{i+1}) = b_{i+1}$$
 * $$f_{i}^{'}(x_{i+1}) = b_i+2c_i(x_{i+1}-xi)+3d_i(x_{i+1}-x_i)^2$$
 * $$f_{i}^{'}(x_{i+1}) = b_i+2c_ih_i+3d_ih_i^2$$
-* Sehingga, **$\mathbf{b_{i+1}=b_i+2c_ih_i+3d_ih_i^2}$**
+* Sehingga, **$b_{i+1}=b_i+2c_ih_i+3d_ih_i^2$**.
 ### Step 6: Turunan kedua dari Persamaan $f_i(x)=a_i+b_i(x-x_i)+c_i(x-x_i)^2+d_i(x-x_i)^3$
 * $$f_{i}^{''}(x_i) = 2c_{i}$$
 * $$f_{i}^{''}(x) = 2c_i+6d_i(x_{i+1}-x_i)$$
 ### Step 7: Kondisi kontinuiti untuk turunan kedua
-* $$f_{i+1}^{''}(x_{i+1}) = 2c_{i}$$
-* $$f_{i}^{''}(x_{i+1}) = b_i+2c_i(x_{i+1}-xi)+3d_i(x_{i+1}-x_i)^2$$
-* $$f_{i}^{''}(x_{i+1}) = b_i+2c_ih_i+3d_ih_i^2$$
+* $$f_{i+1}^{''}(x_{i+1}) = 2c_{i+1}$$
+* $$f_{i}^{''}(x_{i+1}) = 2c_i+6d_i(x_{i+1}-x_i)$$
+* $$f_{i}^{''}(x_{i+1}) = c_i+6d_ih_i$$
+* Sehingga, **$c_{i+1}=c_i+3d_ih_i$**.
+* Sehingga, **$d_{i+1}=\frac{c_{i+1}-c_i}{3h_i}$**.
