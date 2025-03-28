@@ -1,0 +1,1 @@
+# Penurunan Rumus Cubic Splines 
