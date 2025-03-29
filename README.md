@@ -47,9 +47,11 @@ $$\frac{y_{i+1}-y_i}{h_i}-\frac{y_i-y_{i-1}}{h_{i-1}}= \frac{(2c_i+c_{i+1})h_i}{
 ### Step 14: Nyatakan Step 13 ke dalam bentuk matriks sbb
 $$
 \begin{bmatrix}
-h_1 & 2(h_1 + h_2) & h_2 & 0 & \cdots \\
-0 & h_2 & 2(h_2 + h_3) & h_3 & \cdots \\
-\vdots & \vdots & \vdots & \vdots & \ddots
+h_1 & 2(h_1 + h_2) & h_2 & 0 & \cdots & 0 \\
+0 & h_2 & 2(h_2 + h_3) & h_3 & \cdots & 0 \\
+\vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+\vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+\vdots & \vdots & \vdots & \vdots & \ddots & h_n \\
 \end{bmatrix}
 \cdot
 \begin{bmatrix}
