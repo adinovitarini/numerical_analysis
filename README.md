@@ -64,7 +64,7 @@ c_n
 \text{RHS}_2 \\
 \vdots \\
 \text{RHS}_{n-1} \\
-\text{RHS}_n
+\text{RHS}_{n}
 \end{bmatrix}
 $$
 
