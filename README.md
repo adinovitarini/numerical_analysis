@@ -50,8 +50,8 @@ $$
 h_1 & 2(h_1 + h_2) & h_2 & 0 & \cdots & 0 \\
 0 & h_2 & 2(h_2 + h_3) & h_3 & \cdots & 0 \\
 \vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
-\vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
-\vdots & \vdots & \vdots & \vdots & \ddots & h_n \\
+\vdots & \vdots & \vdots & \vdots & \ddots & 0 \\
+\cdots & \cdots & 0 & h_{n-2} & 2(h_{n-2} + h_{n-1}) & h_{n-1} \\
 \end{bmatrix}
 \cdot
 \begin{bmatrix}
