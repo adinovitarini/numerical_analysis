@@ -60,10 +60,10 @@ c_{n-1} \\
 c_n
 \end{bmatrix}=
 \begin{bmatrix}
-\text{RHS}_1 \\
-\text{RHS}_2 \\
+\text{RHS}_1\\
+\text{RHS}_2\\
 \vdots \\
-\text{RHS}_{n-1} \\
+\text{RHS}_{n-1}\\
 \text{RHS}_{n}
 \end{bmatrix}
 $$
