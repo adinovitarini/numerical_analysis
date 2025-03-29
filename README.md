@@ -64,7 +64,7 @@ RHS_1 \\
 RHS_2 \\
 \vdots \\
 RHS_{n-1} \\
-c_n
+RHS_n
 \end{bmatrix}
 $$
 
