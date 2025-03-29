@@ -55,7 +55,9 @@ h_1 & 2(h_1 + h_2) & h_2 & 0 & \cdots \\
 \begin{bmatrix}
 c_1 \\
 c_2 \\
-\vdots
+\vdots \\
+c_{n-1} \\
+c_n
 \end{bmatrix}=
 \begin{bmatrix}
 \text{RHS}_1 \\
