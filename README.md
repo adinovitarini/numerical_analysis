@@ -62,7 +62,9 @@ c_n
 \begin{bmatrix}
 \text{RHS}_1 \\
 \text{RHS}_2 \\
-\vdots
+\vdots \\
+\text{RHS}_{n-1} \\
+\text{RHS}_n \\
 \end{bmatrix}
 $$
 
