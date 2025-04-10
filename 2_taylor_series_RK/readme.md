@@ -1,5 +1,7 @@
 # Deret Taylor
-Metode Taylor untuk menyelesaikan persamaan diferensial $\frac{dy}{dt}=f(t,y)$
+Metode Taylor untuk menyelesaikan persamaan diferensial $\frac{dy}{dt}=f(t,y)$, maka dapat diselesaikan sebagai berikut 
+### Ekspansi deret Taylor 
+$$y(t+h) = y(t)+h\frac{dy}{dt}$$
 # Metode Runge-Kutta orde 2 
 $f(t_i,y_i)$ =  
 ## Hasil Simulasi 
