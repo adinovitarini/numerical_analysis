@@ -6,7 +6,7 @@ Jika elemen $O(h^2)$ dan orde di atasnya **dihilangkan**, maka ekspansi derte Ta
 $$y(t+h)=y(t)+hf(t,y)$$
 Persamaan di atas dikenal sebagai Metode Euler. 
 Jika elemen $O(h^2)$ dan orde di atasnya **tidak dihilangkan**, maka kita perlu menghitung turunan pertama, kedua, dan seterusnya. Perlu diingat aturan _chain rule_ untuk persamaan diferensial parsial, yakni:
-$$\frac{du}{dt}=\frac{\partial u}{\partial x}\dot\frac{dx}{dt}$$
+$$\frac{du}{dt}=\frac{\partial u}{\partial x}\frac{dx}{dt}$$
 # Metode Runge-Kutta orde 2 
 $f(t_i,y_i)$ =  
 ## Hasil Simulasi 
